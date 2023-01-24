@@ -6,7 +6,7 @@ let n =0;
          a+=1;
          } 
          if(a==1){
-         var audioFile = new Audio('./limbo.mp3');
+         var audioFile = new Audio('./LIMBO.mp3');
          audioFile.play()
          } 
          if(a==1){
