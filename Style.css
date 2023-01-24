@@ -1,0 +1,197 @@
+body{
+  background:black;
+  
+	  animation: o2 1s infinite;
+	  
+	  transition-duration :0.2s;
+  
+}
+		@keyframes o2 {
+	  0% {
+	  Background:#0FFF00;
+	  }
+	  10%{
+	    Background:black ;
+	  }
+	  30%{
+	    Background:#FCFF3B;
+	  }
+    40%{
+      background :black ;
+    }
+    60%{
+      background :#E93BFF;
+    }
+	  80% {
+	   Background :#FF0000;
+	   
+	  }
+	  90%{
+	    Background :black ;
+	  }
+	  100% {
+	   Background :#3BBEFF;
+	  }
+	}
+	#click{
+	  Background :black ;
+	  Width:50px;
+	  height:50px;
+	  animation: o3 0.5s infinite;
+	  animation: mov 8s infinite;
+	  transition-duration :0.2s;
+	  POSITION:ABSOLUTE ;
+	  Top:200px;
+	  COLOR:#00FF64;
+	  Font-size :20px;
+	}
+			@keyframes o3 {
+	  0% {
+	  Background:#0FFF00;
+	  }
+	  10%{
+	    Background:black ;
+	    
+	  }
+	  30%{
+	    Background:#FCFF3B;
+	    
+	  }
+    40%{
+      background :black ;
+      
+    }
+    60%{
+      background :#E93BFF;
+    }
+	  80% {
+	   Background :#FF0000;
+	   
+	   
+	  }
+	  90%{
+	    Background :black ;
+	  }
+	  100% {
+	   Background :#3BBEFF;
+	  }
+	}
+	p{
+	  Background:#2C18FFDB;
+	  padding :40px;
+	  animation: o4 2s infinite;
+	  transition-duration :0.2s;
+	    -webkit-animation-delay:1s;
+	    -moz-animation-delay:1s;
+	    -ms-animation-delay:1s;
+	    -o-animation-delay:1s;
+	    animation-dely:3s;
+	    color:#FF8D00;
+	    Font-size:30px;
+	}
+			@keyframes o4 {
+	  0% {
+	  Background:#0FFF00;
+	  }
+	  10%{
+	    Background:black ;
+	  }
+	  30%{
+	    Background:#FCFF3B;
+	  }
+    40%{
+      background :black ;
+    }
+    60%{
+      background :#E93BFF;
+    }
+	  80% {
+	   Background :#FF0000;
+	   
+	  }
+	  90%{
+	    Background :black ;
+	  }
+	  100% {
+	   Background :#3BBEFF;
+	  }
+	}
+				@keyframes mov {
+				  
+0%{
+  top:20px;
+} 
+5%{
+  top:300px;
+}
+10%{
+  left: 300px;
+  top:0px;
+}
+15%{
+  left:0px;
+}
+20%{
+  left:300px;
+  top:400px;
+}
+25%{
+  top:70px;
+  left:0px;
+}
+27%{
+  left:70px;
+}
+29%{
+  top:600px;
+  left:300px;
+}
+34%{
+  left:0px;
+  top:0px;
+}
+50%{
+  left:300px;
+}
+70%{
+  top:400px;
+  left:200px;
+}
+75%{
+  top:400px;
+}
+80%{
+  left:0px;
+}
+85%{
+  top:500px;
+  left:300px;
+}
+90%{
+  top:70px;
+  left:0px;
+} 
+  100% { width: var(--e1); background: red;}
+
+	}
+	p {
+	  -moz-animation: 100ms pulsate infinite alternate ease-in ;
+	}
+	.no {
+	  animation-duration: 800ms;
+	  animation-name: I;
+	  animation-delay: 0.1s;
+	  opacity: 1;
+	}
+	
+	.Out {
+	  animation-duration: 800ms;
+	  animation-name: Out;
+	  animation-delay: 0s;
+	  opacity: 0;
+	}
+	@keyframes I{
+	  0%,100%{
+	    top:0px;
+	  }
+	}
