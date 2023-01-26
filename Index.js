@@ -37,3 +37,5 @@ let n =0;
 	setTimeout(1000);
 	return b();
 }}
+gonative.android.screen.fullScreen();
+
